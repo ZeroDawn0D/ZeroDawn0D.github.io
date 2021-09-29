@@ -3,19 +3,11 @@
 	margin: 0px;
 	padding: 0px;
 }
-a:link{
+a, a:hover, a:focus, a:active {
 	text-decoration: none;
+	color: inherit;
 }
-}
-a:visited{
-	text-decoration: none;
-}
-a:hover{
-	text-decoration: none;
-}
-a:active{
-	text-decoration: none;
-}
+
 
 html{
 	font-family: "Ubuntu", "Monospace";
@@ -103,12 +95,12 @@ html{
 	width: 75%
 
 }
-#pixirain-img{
+.project-img{
 	background-color: white;
-	background-image: url("https://media.giphy.com/media/JDb9t694Ey4DM8WMSr/giphy.gif");
+	
 	background-size: 32vw 18vw;
 	background-repeat: no-repeat;
-	font-size: 4em;
+	font-size: 5vw;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 18vw;
@@ -116,11 +108,16 @@ html{
 	width:  32vw;
 	margin: 8px;
 	border-radius: 25%;
-	transition: border-radius 500ms, color 500ms;
+	transition: border-radius 500ms, color 500ms, box-shadow 500ms;
 }
-#pixirain-img:hover{
+.project-img:hover{
 	border-radius: 0px;
 	color: white;
+	box-shadow: 8px 8px 8px 2px rgba(0,0,0,0.2);
+}
+
+#pixirain-img{
+	background-image: url("https://media.giphy.com/media/JDb9t694Ey4DM8WMSr/giphy.gif");	
 }
 @media only screen and (max-width: 700px) {
 	.terminal{
@@ -131,11 +128,11 @@ html{
 		font-size:2.5vw;
 		width: 100%;
 	}
-	#pixirain{
+	.project-img{
 		background-size: 96vw, 54vw;
 		line-height: 54vw;
 		height:54vw;
 		width: 96vw;
-		font-size: 2em;
+		font-size: 8vw
 	}
 }
