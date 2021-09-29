@@ -1,0 +1,6 @@
+#pixirain{
+	background-image: @import(https://media.giphy.com/media/JDb9t694Ey4DM8WMSr/giphy.gif);
+	background-repeat: no-repeat;
+	height:  90px;
+	width:  160px;
+}
