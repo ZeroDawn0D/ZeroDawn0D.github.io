@@ -96,13 +96,12 @@ html{
 
 }
 .project-img{
+	display: block;
 	background-color: white;
-	
 	background-size: 32vw 18vw;
 	background-repeat: no-repeat;
 	font-size: 5vw;
 	text-align: center;
-	vertical-align: middle;
 	line-height: 18vw;
 	height:  18vw;
 	width:  32vw;
