@@ -3,9 +3,8 @@
 	margin: 0px;
 	padding: 0px;
 }
-a, a:hover, a:focus, a:active {
+a, a:hover, a:focus, a:active{
 	text-decoration: none;
-	color: inherit;
 }
 
 
@@ -108,6 +107,7 @@ html{
 	margin: 8px;
 	border-radius: 25%;
 	transition: border-radius 500ms, color 500ms, box-shadow 500ms;
+	color: black;
 }
 .project-img:hover{
 	border-radius: 0px;
