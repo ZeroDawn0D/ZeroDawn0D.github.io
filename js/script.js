@@ -21,7 +21,8 @@ var personal_body = (
 	+ "Some interesting facts about me:" + br
 	+ "-> My favourite font is Ubuntu" + br 
 	+ "-> I do not have a second favourite font" + br
-	+ hr);
+	+ hr
+	);
 
 var personal = document.getElementById("personal");
 personal.onclick = function(){
@@ -39,7 +40,7 @@ var sch_body = (
 	+ "-> <a id = \"kvpy_link\" href = \"http://www.kvpy.iisc.ernet.in/main/index.htm\">KVPY Website</a>"
 	+ hr
 	+ "-> In 10th Grade I qualified the first stage of the <b>National Talent Search Examination</b>, then a small impediment happened in early 2020 by the name of COVID-19 and in the process (which involved date clashes with other examinations) I never appeared for the second stage :("
-	+hr
+	+ hr
 	);
 
 var sch = document.getElementById("sch");
@@ -50,7 +51,20 @@ sch.onclick = function(){
 
 // ------------------------------------------------------------------------------------------------------
 
+var osrc_head = "Open Source."
+var osrc_body = (
+	hr
+	+ "-> Won Google Code-in 2019 in 10th grade for my work with the R Project for Statistical Computing. Won an all-expense-paid trip to Google, San Francisco which eventually got cancelled because of COVID-19" + br
+	+ "-> Selected for Google Summer of Code 2022 in 12th grade for the R Project for Statistical Computing. I worked on Constrained Delaunay Triangulations in R."
+	+ hr
+	);
 
+var osrc = document.getElementById("osrc");
+osrc.onclick = function(){
+	text_head.innerHTML = osrc_head;
+	text_body.innerHTML = osrc_body;
+}
 
+// ------------------------------------------------------------------------------------------------------
 text_head.innerHTML = personal_head;
 text_body.innerHTML = personal_body;
