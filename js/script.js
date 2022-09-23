@@ -1,3 +1,7 @@
+// #f4f9f8 triad white bg
+// #2b3e48 triad border color
+
+
 var br = "<br />";
 var hr = "<hr />";
 var text_head = document.getElementById("text_head");
