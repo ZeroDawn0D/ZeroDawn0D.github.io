@@ -97,6 +97,9 @@ html{
 }
 
 @media only screen and (max-width: 800px) {
+	.name{
+		font-size: 9vw;
+	}
 	hr{
 		width: 75%;
 		position: relative;
@@ -107,11 +110,14 @@ html{
 		width:  100vw;
 	}
 	.terminal{
-		font-size: 3.5vw;
+		font-size: 4.5vw;
 		width: 100%;
 	}
+	.big_text{
+		font-size: 4.5vw;
+	}
 	.small_text{
-		font-size:2.7vw;
+		font-size:3.5vw;
 		width: 95%;
 		float: right;
 	}

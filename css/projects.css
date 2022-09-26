@@ -14,10 +14,15 @@ html{
 	font-family: "Ubuntu", "Monospace";
 	background-color: #F5F5F5;
 }
+
+.return{
+	margin-left: 8px;
+	color: #2aa198;
+	font-size: 2.5vw
+}
 .name{
 	color: #2aa198;
-	text-align: center;
-	font-size: 8vw
+	font-size: 6vw
 }
 
 .grid-container{
@@ -79,6 +84,12 @@ html{
 	color: #ffffff;
 }
 @media only screen and (max-width: 800px) {
+	.return{
+		font-size: 3.3vw;
+	}
+	.name{
+		font-size: 6.5vw;
+	}
 	.grid-container{
 		display: block;
 		width: 100%;
