@@ -26,7 +26,7 @@ var personal_body = (
 	+ "-> pixel art" + br
 	+ hr
 	+ "Some interesting facts about me:" + br
-	+ "-> My favourite manga are Vinland Saga and Jujutsu Kaisen" + br
+	+ "-> Favourite manga: Vinland Saga and Jujutsu Kaisen" + br
 	+ "-> Favourite JRPG - NieR: Automata"+br
 	+ "-> Favourite MMORPG - Final Fantasy XIV: A Realm Reborn" + br
 	+ "-> My favourite font is Ubuntu" + br 

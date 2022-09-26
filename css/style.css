@@ -7,7 +7,9 @@ a, a:hover, a:focus, a:active{
 	text-decoration: underline;
 	color: #2aa198;
 }
-
+#proj{
+	text-decoration: none;
+}
 
 
 html{
