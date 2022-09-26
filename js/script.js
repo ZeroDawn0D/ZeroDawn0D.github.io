@@ -15,12 +15,12 @@ var personal_head = "Developer. Student. Weeb."
 var personal_body = (
 	hr 
 	+ "Hello. My name doesn't translate to a pun and I have nothing witty to say here." +br
-	+ "I graduated from my high school (Salt Lake School,Kolkata) in June, 2022." + br
+	+ "I am currently pursuing my <b>Bachelor in Science (Research)</b> from the <b>Indian Institute of Science</b>. "
+	+ "I will be majoring in <b>Mathematics</b> and expect to graduate by 2026." + br
 	+ "I do some:" + br
 	+ "-> competitive programming(barely)" + br 
 	+ "-> web design(judge me yourself lol)" + br
-	+ "-> mathematics" + br
-	+ "-> and linguistics(failed to qualify the olympiad three years in a row)" + br
+	+ "-> pixel art" + br
 	+ hr
 	+ "Some interesting facts about me:" + br
 	+ "-> My favourite font is Ubuntu" + br 
