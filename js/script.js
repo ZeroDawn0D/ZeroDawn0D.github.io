@@ -6,12 +6,15 @@ var br = "<br />";
 var hr = "<hr />";
 var text_head = document.getElementById("text_head");
 var text_body = document.getElementById("text_body");
-
+var list_start = "<ul>";
+var list_end = "</ul>";
+var list_el_start = "<li>";
+var list_el_end = "</li>";
 
 
 // ------------------------------------------------------------------------------------------------------
 
-var personal_head = "Developer. Student. Weeb."
+var personal_head = "Math. Manga. JRPGs."
 var personal_body = (
 	hr 
 	+ "Hello. My name doesn't translate to a pun and I have nothing witty to say here." +br
@@ -23,9 +26,15 @@ var personal_body = (
 	+ "-> pixel art" + br
 	+ hr
 	+ "Some interesting facts about me:" + br
+	+ "-> My favourite manga are Vinland Saga and Jujutsu Kaisen" + br
+	+ "-> Favourite JRPG - NieR: Automata"+br
+	+ "-> Favourite MMORPG - Final Fantasy XIV: A Realm Reborn" + br
 	+ "-> My favourite font is Ubuntu" + br 
 	+ "-> I do not have a second favourite font" + br
 	+ hr
+	+ "Email me: <a href = \"umang.zerodawn0d@gmail.com\">umang.zerodawn0d@gmail.com</a>"+br
+	+ "Github: <a href = \"https://github.com/ZeroDawn0D\">ZeroDawn0D</a>"+br
+
 	);
 
 var personal = document.getElementById("personal");
@@ -36,37 +45,60 @@ personal.onclick = function(){
 
 // ------------------------------------------------------------------------------------------------------
 
-var sch_head = "Scholarships."
-var sch_body = (
+var uni_head = "University stuff."
+var uni_body = (
 	hr
 	+ "-> In 11th Grade I qualified for the KVPY Scholarship to pursue my undergraduate research studies in India" + br
-	+ "-> \"The <b>Kishore Vaigyanik Protsahan Yojana (KVPY)</b> is an on-going National Program of Fellowship in Basic Sciences, initiated and funded by the <b>Department of Science and Technology, Government of India</b>, to attract exceptionally highly motivated students for pursuing basic science courses and research career in science.\"" + br
 	+ "-> <a id = \"kvpy_link\" href = \"http://www.kvpy.iisc.ernet.in/main/index.htm\">KVPY Website</a>"
 	+ hr
-	+ "-> In 10th Grade I qualified the first stage of the <b>National Talent Search Examination</b>, then a small impediment happened in early 2020 by the name of COVID-19 and in the process (which involved date clashes with other examinations) I never appeared for the second stage :("
+	+ "Semester 1 (October 2022 - )"+br
+	+ list_start
+
+	+ list_el_start 
+	+ "UM101: Analysis and Linear Algebra I"+br
+	+ list_el_end 
+	
+	+ list_el_start 
+	+ "UB101: Introductory Biology I (Organismal Biology and Molecular Basis of Life"+br
+	+ list_el_end
+	
+	+ list_el_start 
+	+ "UC101: Physical Principles of Chemistry"+br
+	+ list_el_end
+	
+	+ list_el_start 
+	+ "UP101: Introductory Physics I (Mechanics, Oscillations and Waves)"+br
+	+ list_el_end
+	
+	+ list_el_start 
+	+ "UH101: Ways of Knowing"+br
+	+ list_el_end
+	
 	+ hr
 	);
 
-var sch = document.getElementById("sch");
-sch.onclick = function(){
-	text_head.innerHTML = sch_head;
-	text_body.innerHTML = sch_body;	
+var uni = document.getElementById("uni");
+uni.onclick = function(){
+	text_head.innerHTML = uni_head;
+	text_body.innerHTML = uni_body;	
 }
 
 // ------------------------------------------------------------------------------------------------------
 
-var osrc_head = "Open Source."
-var osrc_body = (
+var work_head = "Work stuff."
+var work_body = (
 	hr
-	+ "-> Won Google Code-in 2019 in 10th grade for my work with the R Project for Statistical Computing. Won an all-expense-paid trip to Google, San Francisco which eventually got cancelled because of COVID-19" + br
-	+ "-> Selected for Google Summer of Code 2022 in 12th grade for the R Project for Statistical Computing. I worked on Constrained Delaunay Triangulations in R."
+	+ "R Project for Statistical Computing (Dec 2019 - Present)"+br
+	+ "-> Won Google Code-in 2019 in 10th grade for my work with the R Project. Won an all-expense-paid trip to Google, San Francisco which eventually got cancelled because of COVID-19" + br
+	+ "-> Selected for Google Summer of Code 2022 in 12th grade for the R Project. "
+	+ "I created an R package to compute the Delaunay Triangulation of a set of 2D points in C++ and R."+br
 	+ hr
 	);
 
-var osrc = document.getElementById("osrc");
-osrc.onclick = function(){
-	text_head.innerHTML = osrc_head;
-	text_body.innerHTML = osrc_body;
+var work = document.getElementById("work");
+work.onclick = function(){
+	text_head.innerHTML = work_head;
+	text_body.innerHTML = work_body;
 }
 
 // ------------------------------------------------------------------------------------------------------

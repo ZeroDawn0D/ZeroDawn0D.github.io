@@ -4,7 +4,8 @@
 	padding: 0px;
 }
 a, a:hover, a:focus, a:active{
-	text-decoration: none;
+	text-decoration: underline;
+	color: #2aa198;
 }
 
 
@@ -114,7 +115,7 @@ html{
 		width: 100%;
 	}
 	.big_text{
-		font-size: 4.5vw;
+		font-size: 5vw;
 	}
 	.small_text{
 		font-size:3.5vw;
