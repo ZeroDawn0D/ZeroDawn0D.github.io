@@ -32,7 +32,7 @@ var personal_body = (
 	+ "-> My favourite font is Ubuntu" + br 
 	+ "-> I do not have a second favourite font" + br
 	+ hr
-	+ "Email me: <a href = \"umang.zerodawn0d@gmail.com\">umang.zerodawn0d@gmail.com</a>"+br
+	+ "Email me: <a href = \"mailto:umangm@iisc.ac.in\">umangm@iisc.ac.in</a>"+br
 	+ "Github: <a href = \"https://github.com/ZeroDawn0D\">ZeroDawn0D</a>"+br
 
 	);
